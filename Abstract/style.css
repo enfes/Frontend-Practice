@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'GT America Standard', sans-serif;
+}
+
+.layout{
+    display: flex;
+    position: relative;
+    font-size: 24px;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width:768px){
+    .container{
+        padding-right: calc(15px * 2);
+        padding-left: calc(15px * 2);
+    }
+}
+.topbar {
+    width: 100%;
+    background: #000;
+    height: 88px;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.top{
+    width: 90%;
+    max-width: 1900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar-logo{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topbar-logo a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+    border-left: 2px solid #fff;
+}
+.topbar-logo a:hover{
+   text-decoration: underline;
+}
+.abstract-logo{
+    width: 126px;
+    height: 2rem;
+}
+.logo{
+    display: block;
+    height: 2rem;
+    padding-right: 15px;
+}
+.topbar-buttons{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.topbar-buttons a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+.btn-1{
+    background-color: #191a1b;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    padding: 6px 22px;
+    font-weight: 600;
+}
+.btn-2{
+    margin-left: 1rem;
+    background-color: #4C5FD5;
+    border-radius: 8px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    padding: 8px 30px;
+    transition: all 0.3s ease;
+}
+.btn-2:hover{
+    background: #fff;
+    color: #000;
+}
+.search-box{
+    height: 202px;
+    background: #dadbf1;
+    padding: 80px 30px 115px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family: 'GT America Standard', sans-serif;
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: -4px;
+    line-height: 76px;
+    font-weight: 400;
+    margin: 0 0 1rem;
+    width: 100%;
+    max-width: 720px;
+    text-align: center;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    width: 100%;
+}
+input[type="search"]{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0.5em 1em;
+    font-size: 20px;
+    font-family: "GT America Standard", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    background-clip: padding-box;
+}
+#content{
+    width: 100%;
+}
+#content #help-btn{
+    position:fixed;
+    bottom: 20px;
+    right: 25px;
+    background: #4C5FD5;
+    color: #fff;
+    border-radius: 999rem;
+    padding: .92857rem 1.57143rem ;
+}
+#content #help-btn .text-btn{
+    margin-left: 5px;
+
+}
+#content .wrapper{
+    max-width: 1504px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+#content .wrapper .cards{
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 100px;
+}
+#content .wrapper .cards .text-card h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#content .wrapper .cards .text-card p{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 32px;
+    opacity: 0.8;
+}
+#content .wrapper .cards .text-card a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #4C5FD5;
+}
+#content .wrapper .cards .text-card a:hover{
+    text-decoration: underline;
+}
+#content .wrapper .cards .images img{
+    width: 94px;
+    height: 94px;
+    margin-right: 32px;
+}
+footer{
+    width: 100%;
+    background: #000000;
+    color: #fff;
+}
+footer .foot-wrapper{
+    display: flex;
+    width: 87%;
+    margin: auto;
+    height: 400px;
+    justify-content: space-evenly;
+}
+footer .foot-wrapper .foot-text{
+    width: 23%;
+    margin-top: 50px;
+}
+footer .foot-wrapper .foot-text h2{
+    margin-bottom: 20px;
+}
+footer .foot-wrapper .foot-text ul li{
+    list-style: none;
+    line-height: 25px;
+}
+footer .foot-wrapper .foot-text ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+footer .foot-wrapper .foot-text h4{
+    margin:30px 0px 5px 0px;
+    font-size: 16px;
+}
+footer .foot-wrapper .foot-text a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .foot-wrapper .foot-text .footer-logo{
+    margin: 0px 0px 20px 0px;
+}
+footer .foot-wrapper .end{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 5%;
+}
+footer .foot-wrapper .end p{
+    font-size: 1.25rem;
+    line-height: 28px;
+}

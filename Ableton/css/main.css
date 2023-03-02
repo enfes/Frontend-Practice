@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Segoe UI","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+header{
+    width: 100%;
+    background: #fff;
+}
+header hr{
+    opacity: 0.1;
+    height: 2px;
+    background: #000;
+}
+header #nav-one{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+header #nav-one .menu-left{
+    display: flex;
+    align-items: center;
+}
+header #nav-one .menu-left .main-nav__logo{
+    display: block;
+    width: 3.75em;
+    height: 1.75em;
+    margin-right: 20px;
+}
+header #nav-one .menu-left ul{
+    display: flex;
+}
+header #nav-one .menu-left ul li{
+    margin: 20px;
+    list-style: none;
+}
+header #nav-one .menu-left ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+header #nav-one .menu-right ul{
+    display: flex;
+}
+header #nav-one .menu-right ul li{
+    margin: 10px;
+    list-style: none;
+}
+header #nav-one .menu-right ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 30px;
+}
+header #nav-one .menu-right ul #first a{
+    color: #0000ff;
+    font-weight: 700;
+}
+header #nav-one .menu-right ul #second a{
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #000;
+}
+header #nav-two
+{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+header #nav-two .menu-two{
+    width: 100%;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+header #nav-two .menu-two ul{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+header #nav-two .menu-two ul li{
+    list-style: none;
+}
+.active a{
+    color: #ff764d !important;
+}
+header #nav-two .menu-two ul li a{
+    text-decoration: none;
+    padding: 19px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+#banner{
+    width: 100%;
+    height: 700px;
+}
+#banner .banner-img{
+    background-image: url(/images/image-1.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: 50% 50% ;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .banner-img h1{
+    margin-bottom: 70px;
+    margin-left: 40px;
+    font-size:7rem;
+    color:rgb(253, 89, 72);
+    font-weight: 500;
+    font-family:  "Segoe UI","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#content-text{
+    width: 100%;
+}
+#content-text .content-wrapper{
+    width: 50%;
+    margin: 50px auto 100px auto;
+}  
+#content-text .content-wrapper p{
+    font-family:  "Segoe UI","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+} 
+#content-text .content-wrapper #first-ct{
+    width: 95%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+#content-text .content-wrapper #first-ct span{
+    color: #0000ff;
+}
+#content-text .content-wrapper #second-ct{
+    width: 95%;
+    font-size: 1rem;
+    line-height: 30px;
+}
