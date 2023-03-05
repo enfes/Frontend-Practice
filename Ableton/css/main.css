@@ -568,3 +568,9 @@ footer .foot-wrapper .row .card-right{
     justify-content: end;
     font-size: 14px;
 }
+footer .foot-wrapper .row .card-right h4{
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.8;
+}
