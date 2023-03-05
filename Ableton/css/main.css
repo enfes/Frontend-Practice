@@ -5,9 +5,11 @@
 }
 body{
     font-family: "Segoe UI","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #F3F3F3;
 }
 header{
-    width: 100%;
+    width: 1600px;
+    margin: auto;
     background: #fff;
 }
 header hr{
@@ -97,12 +99,17 @@ header #nav-two .menu-two ul li a{
     font-weight: 600;
     font-size: 14px;
 }
+#out-wrapper{
+    width: 1600px;
+    margin: auto;
+    background: #fff;
+}
 #banner{
     width: 100%;
     height: 700px;
 }
 #banner .banner-img{
-    background-image: url(/images/image-1.jpeg) ;
+    background-image: url(/Ableton/images/image-1.jpeg) ;
     background-repeat: no-repeat;
     background-position: 50% 50% ;
     margin: auto;
@@ -142,6 +149,141 @@ header #nav-two .menu-two ul li a{
 }
 #content-text .content-wrapper #second-ct{
     width: 95%;
+    font-size: 1rem;
+    line-height: 30px;
+}
+#images-box{
+    width: 100%;
+    height: 933px;
+    display: flex;
+    justify-content: end;
+    margin: 133px 0px 133px 0px;
+}
+#images-box .box-1{
+    width: 50%;
+    height: 933px;
+    background: #fbffa7;
+}
+#images-box .box-1 .img-box-1{
+    background: #fff;
+    width: 84%;
+    height: 933px;
+}
+#images-box .box-1 .img-box-1 .img img{
+  position: relative;
+  top:140px;
+  left:140px
+}
+#images-box .box-2{
+    width: 50%;
+    height: 933px;
+    background: #fbffa7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#images-box .box-2 .img-box-2{
+    background-image: url(/Ableton/images/image-3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 533px;
+    height: 400px;
+}
+#content-text-2{
+    width: 100%;
+}
+#content-text-2 .content-wrapper{
+    width: 50%;
+    margin: 50px auto 100px auto;
+}  
+#content-text-2 .content-wrapper p{
+    font-family:  "Segoe UI","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+} 
+#content-text-2 .content-wrapper #first-ct{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+#content-text-2 .content-wrapper #second-ct{
+    width: 100%;
+    font-size: 1rem;
+    line-height: 30px;
+}
+#content-video{
+    width: 100%;
+    height: 700px;
+}
+#content-video .wrapper-video{
+    width: 50%;
+    margin: auto;
+}  
+#content-video .wrapper-video iframe{
+    width:800px;
+    height: 450px;
+}
+#content-video .wrapper-video p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}  
+#images-box-2{
+    width: 100%;
+    height: 1200px;
+    margin: 133px 0px 133px 0px;
+    display: flex;
+}
+#images-box-2 .box-1 {
+    width: 100%;
+    height: 1200px;
+    background-color:#b6ffc0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#images-box-2 .box-1 .img-box-1 .mt{
+    margin-top: 133.133px;
+}
+#images-box-2 .box-2{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color:#fff;
+}
+#images-box-2 .box-2 .img-box-2{
+    background-color:#b6ffc0;
+    width: 17%;
+    height: 1200px;
+}
+#images-box-2 .box-2 .img-box-2 .img-2 img{
+    position: relative;
+    top: 250px;
+}
+#content-text-3{
+    width: 100%;
+}
+#content-text-3 .content-wrapper{
+    width: 50%;
+    margin: 50px auto 100px auto;
+}  
+#content-text-3 .content-wrapper p{
+    font-family:  "Segoe UI","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+} 
+#content-text-3 .content-wrapper #first-ct{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+#content-text-3 .content-wrapper #second-ct{
+    width: 100%;
     font-size: 1rem;
     line-height: 30px;
 }
