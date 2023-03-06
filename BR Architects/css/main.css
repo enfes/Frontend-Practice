@@ -239,6 +239,10 @@ header nav .menu-right ul li a{
     margin-top: 10px;
     display: inline-block;
 }
+#contact .contact-wrapper form .btn-contact:hover{
+    color: #000;
+    background: #ccc;
+}
 #banner-footer{
     width: 1500px;
     margin: 40px auto 5px auto;
